@@ -1,5 +1,5 @@
-export const spaceBaseSize = 8
-export const addSpace = (size:number) => spaceBaseSize * size
+export const base = 8
+export const addSpace = (size:number) => base * size
 
 export const Text = {
     Type1: '32px',
