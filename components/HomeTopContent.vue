@@ -10,6 +10,9 @@ export default defineComponent({
             gap: addSpace(1),
             justifyItems: 'center',
             padding: `${addSpace(10)}px 0`,
+            "@media (max-width: 480px)":{
+                gap: addSpace(2),
+            }
         })
 
         const homeTopContentImageStyle = css({
@@ -23,6 +26,9 @@ export default defineComponent({
             fontSize: 96,
             fontWeight: Weight.Bold,
             lineHeight: '120%',
+            "@media (max-width: 480px)":{
+                fontSize: 48,
+            }
         })
 
         const homeTopContentTextStyle = css({
