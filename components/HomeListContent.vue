@@ -6,12 +6,16 @@ export default defineComponent({
     render(){
 
         const homeListContentBodyStyle = css({
-            padding: `${addSpace(5)}px 0`,
+            padding: `${addSpace(3)}px 0`,
+            "@media (max-width: 480px)":{
+                padding: `0 0 ${addSpace(4)}px`,
+            }
         })
 
         const homeListContentListStyle = css({
             display: 'flex',
             gap: addSpace(2),
+            justifyContent: 'space-between',
             listStyleType: 'none',
             "@media (max-width: 480px)":{
                 flexDirection: 'column',
