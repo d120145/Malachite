@@ -5,7 +5,6 @@ import HomeGithubLinkContentVue from '~~/components/HomeGithubLinkContent.vue';
 import HomeListContentVue from '~~/components/HomeListContent.vue';
 import HomeTopContentVue from '~~/components/HomeTopContent.vue';
 import MainVue from '~~/components/templates/Main.vue';
-import  Helloworld  from '../components/Helloworld.vue'
 
   export default defineComponent({
     render(){
