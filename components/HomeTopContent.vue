@@ -40,7 +40,7 @@ export default defineComponent({
                 height={156}
                 width={156}
                 />
-                <h1 className={homeTopContentTitleStyle}>Wow!!</h1>
+                <h1 className={homeTopContentTitleStyle}>Hello! Nuxt</h1>
                 <p className={homeTopContentTextStyle}>This is my first Nuxt.js project.</p>
             </section>
         )
