@@ -1,21 +1,29 @@
-# Nuxt 3 Minimal Starter
+![image-malachite_repo_thumb](https://user-images.githubusercontent.com/113886858/219882134-529fb634-2a45-41d2-9fae-3a14d9bdf23c.png)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+| Deploy |
+| --- |
+| [![Netlify Status](https://api.netlify.com/api/v1/badges/25f5ad4c-6fcc-43b1-b950-09c2f9eedf61/deploy-status)](https://app.netlify.com/sites/malachite/deploys) |
 
-## Setup
+## The Repository
+This repository is the first Nuxt project that I (@d120145) built.
 
-Make sure to install the dependencies:
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+# Environment
 ```
+node -v
+└── v18.14.0
+
+vue -v
+└── v3.2.47
+
+nuxt -v
+└── v3.2.2
+
+pulugins
+├── @emotion/css@11.10.6
+└── @vue/runtime-core@3.2.47
+```
+
 
 ## Development Server
 
@@ -39,4 +47,6 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+# Lisence
+Lisence under the [MIT](https://github.com/d120145/Malachite/LICENSE) License
