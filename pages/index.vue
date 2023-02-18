@@ -1,10 +1,10 @@
 <script lang="tsx">
+import  Helloworld  from '../components/Helloworld.vue'
+
   export default defineComponent({
     render(){
       return (
-        <div>
-          <p>Hello World!</p>
-        </div>
+        <Helloworld />
       )
     }
   })
