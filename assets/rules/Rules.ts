@@ -20,7 +20,7 @@ export const Hover = {
 
 export const Display = {
     FullSize: '100%',
-    ContentSize: '640px',
+    ContentSize: '1100px',
 }
 
 export const Colors = {
